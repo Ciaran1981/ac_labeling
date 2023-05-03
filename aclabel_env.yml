@@ -1,0 +1,25 @@
+name: ac_label
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3 
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - gdal
+  - joblib
+  - napari
+  - dask
+  - scikit-image
+  - jupyter
+  - ipywidgets
+  - nb_conda
+  - owslib
+  - tqdm
+  - geopandas
+
+  - pip:
+      - morphsnakes
