@@ -10,8 +10,12 @@ Installing the required libs (there are not many) uses the conda system so ensur
 
 .. code-block:: bash
 
-mamba env create -f aclabel.yml
+mamba env create -f aclabel_env.yml
 
 conda activate ac_label
 
+Notes
+~~~~~
+
+The script is not executable - just a record of the workflow
 
